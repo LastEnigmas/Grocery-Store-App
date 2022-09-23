@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aria Shopping Center</string>
+    <string name="drawer_open" translatable="false">drawer_open</string>
+    <string name="drawer_close" translatable="false">drawer_close</string>
+    <string name="new_items">New Items:</string>
+    <string name="popular_items">Popular Items:</string>
+    <string name="suggested_items">Suggested Items:</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="name">name</string>
+    <string name="reviews">reviews</string>
+    <string name="type_here">TYPE HERE</string>
+    <string name="see_all_categories">See all categories</string>
+    <string name="description">Description</string>
+</resources>

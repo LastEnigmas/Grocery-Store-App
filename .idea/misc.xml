@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/drawable/ic_about_background.xml" value="0.3415" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/drawable/ic_about_foreground.xml" value="0.3415" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/drawable/ic_category_background.xml" value="0.3415" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/drawable/ic_category_foreground.xml" value="0.3415" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/drawable/ic_terms_foreground.xml" value="0.3415" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/activity_cart.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/activity_grocery_item.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/activity_main.xml" value="0.55" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/activity_search.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/cart_item.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/dialog_add_review.xml" value="0.55" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/dialog_all_categories.xml" value="0.4125" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/first_cart_fragment.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/fragment_cart_second.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/fragment_cart_third.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/fragment_main.xml" value="0.4" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/fragment_payment_result.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/grocery_item.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/navigation_drawer_header.xml" value="0.55" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/layout/review_item.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/menu/bottom_nav_menu.xml" value="0.4514749893116717" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/menu/navigation_drawer_menue.xml" value="0.55" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.314" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/mipmap-anydpi-v26/ic_place holder.xml" value="0.3415" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/mipmap-anydpi-v26/ic_placeholder.xml" value="0.314" />
+        <entry key="..\:/Users/Aria/AndroidStudioProjects/AriaGrocery/app/src/main/res/mipmap-anydpi-v26/ic_placeholder_round.xml" value="0.314" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

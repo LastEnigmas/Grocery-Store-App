@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aria Shopping Center</string>
+    <string name="description">شرح</string>
+    <string name="reviews">بررسی ها</string>
+    <string name="type_here">اینجا تایپ کنید</string>
+    <string name="see_all_categories">مشاهده همه دسته ها</string>
+    <string name="name">نام</string>
+    <string name="add_to_cart">افزودن به سبد خرید</string>
+    <string name="suggested_items">موارد پیشنهادی:</string>
+    <string name="popular_items">اقلام محبوب:</string>
+    <string name="new_items">موارد جدید:</string>
+</resources>

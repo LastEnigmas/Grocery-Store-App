@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:paddingStart="14dp"
+    android:background="#3BBACA">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_placeholder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aria Center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ariataghizade.com"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:id="@+id/txtwebsite"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="4dp"/>
+
+</LinearLayout>

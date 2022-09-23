@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+    <LinearLayout
+        android:id="@+id/itemrellay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items:"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txtitem_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item names"
+            android:lineSpacingExtra="3dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pricerellay"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/itemrellay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price:"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txtTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/addreddrellay"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pricerellay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txtaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/phonenumrellay"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/addreddrellay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone #:"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txtphonenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone number"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phonenumrellay"
+        android:id="@+id/selectapaymentmeth"
+        android:textStyle="bold"
+        android:layout_marginTop="26dp"
+        android:textSize="17sp"
+        android:text="Select a payment method:"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgPaymentMethod"
+        android:layout_below="@id/selectapaymentmeth"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/rbCreditcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Credit Card"/>
+        <RadioButton
+            android:id="@+id/rbPaypal"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PayPal"/>
+
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+        <Button
+            android:id="@+id/btncheckout"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="checkout"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

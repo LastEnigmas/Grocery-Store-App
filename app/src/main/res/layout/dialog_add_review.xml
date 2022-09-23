@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are commenting on"
+            android:id="@+id/commentingon"/>
+
+        <TextView
+            android:id="@+id/txtitemnamedialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@id/commentingon"
+            android:text="item name" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edttxtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edttxtreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:hint="Your Review"
+        android:gravity="start"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txtview_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warning !!"
+        android:layout_gravity="center"
+        android:textColor="#B83D3D"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadd_comment"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Add"/>
+
+
+
+</LinearLayout>
